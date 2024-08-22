@@ -27,7 +27,7 @@ function __get($atributo) {
 }
 
 //criamos a variável como uma nova pessoa, e setamos com o nome
-$pessoa = new Pessoa('Lucas'); 
+$pessoa = new Pessoa('matheus'); 
 
 // concatenamos com o  __get "mágico"
 echo '<br> Nome:' . $pessoa->__get('nome') . '<br>'; 
